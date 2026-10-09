@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "react-native-practice",
+    "name": "My First React Native App",
     "slug": "react-native-practice",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "reactnativepractice",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
@@ -18,10 +17,10 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web": {
+      "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
@@ -43,6 +42,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3259f7d7-3fe2-43cf-b9ba-80bc25b32376"
+      }
     }
   }
 }
